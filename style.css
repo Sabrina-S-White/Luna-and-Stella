@@ -1,0 +1,87 @@
+/*background styling*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+/*hero styling*/
+#title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.hero {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    width:85%;
+    margin:50px;
+
+}
+
+.hero-top-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.hero-top-menu a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hero-top-menu ul li::after {
+    content: '';
+    height:3px;
+    width:0;
+    background: #9ed4cd;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+
+.hero-top-menu ul li:hover::after {
+    width:100%;
+}
+
+.hero-image {
+    width:450px;
+    height:auto;
+    border-radius: 15px;
+}
+
+.hero-main {
+    display: flex;
+    align-items: center;
+    gap:100px;
+    width:75%;
+}
+
+.hero-main p {
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.35);
+    padding: 25px;
+    border-radius: 15px;
+}
