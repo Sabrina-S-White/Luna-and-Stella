@@ -26,8 +26,9 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
 }
 
 .hero-top {
@@ -84,4 +85,11 @@ align-items: center;
     background-color: rgba(0,0,0,0.35);
     padding: 25px;
     border-radius: 15px;
+}
+
+/*explore section*/
+.explore {
+    display: flex;
+    color:#fff;
+
 }
